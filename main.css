@@ -1,0 +1,226 @@
+/* Version Mobile */
+
+	/* Section 1 */
+	.Princ{
+		background-image: url(img/img/plage.JPG);
+		background-size: cover;
+	}
+	header{
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	.mobileMenu{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.bar{
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	.burger{
+		visibility: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sec1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		color: black;
+	}
+	/* Section 2 */
+		/* Image */
+	.princess img{
+		width: 100%;
+	}
+		/* Texte */
+	.About{
+		font-family: 'Poppins', sans-serif;
+		display: flex;
+		flex-direction: column;
+	}
+	.chose{
+		margin-top: -15px;
+	}
+	/* Barre */
+	.intWebDesign{
+		background-color: dimgrey;
+		color: white;
+		width: 95%;
+		z-index: 2;
+		border-radius: 30px;
+	}
+	.intBranding{
+		background-color: dimgrey;
+		color: white;
+		width: 80%;
+		z-index: 2;
+		border-radius: 30px;
+	}
+	.intDevelopment{
+		background-color: dimgrey;
+		color: white;
+		width: 90%;
+		z-index: 2;
+		border-radius: 30px;
+	}
+	.WebShadow{
+		width: 100%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 30px;
+	}
+	.BrandingShadow{
+		width: 100%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 30px;
+	}
+	.DevShadow{
+		width: 100%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 30px;
+	}
+	.text1{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.text2{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.text3{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	/* Bouton */
+	.DL{
+		background-color: dimgrey;
+		color: white;
+		border-radius: 30px;
+	}
+	.CM{
+		background-color: white;
+		border-radius: 30px;
+	}
+	/* Section 3 */
+	.Services{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.Services h3{
+		display: flex;
+		justify-content: center;
+	}
+	.Services section{
+		background: rgb(150, 150, 150);
+		padding-top: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.esp{
+		margin-top: 20px;
+	}
+	.icon{
+		font-size: 1em;
+		background: white;
+		border-radius: 30px;
+		padding: 15px;
+		transition: color 1s;
+		transition: background 1s;
+	}
+	.icon:hover{
+		color: white;
+		background: black;
+	}
+	.Services section p{
+		margin-top: -15px;
+	}
+	/* Section 4 */
+	.Portfolio{
+		font-family: 'Poppins', sans-serif;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;	
+	}
+	.NAV{
+		width: 150%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;		
+	} 
+
+/* Version desktop */
+
+@media only screen and (min-width: 1050px) /*and (max-width: 1250px)*/{ 
+
+	/* Section 1 */
+	header{
+		font-family: 'Poppins', sans-serif;
+	}
+	.bar{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.bar span{
+		visibility: hidden;
+	}
+	.titleP{
+		visibility: initial;
+		color: white;
+	}
+	.burger{
+		visibility: visible !important;
+		color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.burger p{
+		margin-right: 10px;
+	}
+	/* Section 2 */
+	.About{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/* Section 3 */
+	.First{
+		display: flex;
+	}
+	.Second{
+		display: flex;
+	}
+
+	/* Section 4 */
+	.FirstO{
+		display: flex;
+	}
+	.SecondO{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.img5{
+		order: 1;
+	}
+}
